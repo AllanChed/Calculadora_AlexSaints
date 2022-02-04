@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Operações Básicas</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="home">
+    <header id="cabecalho">
+        <div class="texto-cabecalho">
+            <h1>Calculadora Simples - Protótipo</h1>
+        </div>
+        <div class="links-cabecalho">
+            <a href="index.html" class="pag-atual">Operações Básicas</a>
+            <a href="porcentagem.html">Porcentagem</a>
+        </div>   
+    </header>
+        <h1 id="texto-pre-form">Realiza as 4 operações básicas</h1>
+    <div id="form">
+        <input type="number" id="n1" placeholder="Digite o primeiro número">
+        <select id="selector">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="n2" placeholder="Digite o segundo número">
+        <button onclick="calcular1()">Calcular</button>
+    </div>
+    <div>
+        <h3 id="resultado"></h3><br><br>
+    </div>
+    <div id="texto">
+        <p id="me">Feito por Allan Ched</p>
+        <a href="https://github.com/AllanChed/">Allan Ched - GitHub</a>
+        <p id="creditos">Baseado no vídeo e código de Alex Saints</p>
+        <a href="https://www.youtube.com/c/AlexandreSaints">Alex Saints - YouTube</a>
+    </div>
+<script src="js/calculadoras.js"></script>
+</body>
+</html>

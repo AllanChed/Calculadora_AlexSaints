@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#b5b5b5, #878787) no-repeat;
+    background-attachment: fixed;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Rowdies, sans-serif;
+    background: black;
+    color: white;
+}
+
+#cabecalho h1 {
+    font-weight: 300;
+}
+
+.links-cabecalho a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.links-cabecalho a:hover {
+    color: grey;
+}
+
+#home .links-cabecalho a.pag-atual{
+    color: grey;
+}
+
+#texto-pre-form {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;  
+}
+
+h1 {
+    font-family: Rowdies, sans-serif;
+    font-weight: 300;
+}
+
+#selector {
+    height: 39px;
+    width: 50px;
+    margin: 10px;
+}
+
+input {
+    width: 50%;
+    height: 35px;
+    margin: 10px;
+}
+
+.porcento {
+    margin-top: 20px;
+}
+
+button {
+    height: 35px;
+    width: 50px;
+    background-color: rgb(99, 178, 252);
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+button:hover {
+    color: white;
+    background: blue;
+}
+
+#resultado {
+    text-align: center;
+    font-family: Rowdies, sans-serif;
+    font-weight: 300;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto a {
+    text-decoration: none;
+    color: blue;
+}
+
+#texto a:hover {
+    color: white;
+    background: blue;
+}
