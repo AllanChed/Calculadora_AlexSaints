@@ -9,25 +9,20 @@
 <body id="home">
     <header id="cabecalho">
         <div class="texto-cabecalho">
-            <h1>Calculadora Simples - Protótipo</h1>
+            <h1>Calculadora de Potenciação - Protótipo</h1>
         </div>
         <div class="links-cabecalho">
-            <a href="index.html" class="pag-atual">Operações Básicas</a>
+            <a href="index.html">Operações Básicas</a>
             <a href="porcentagem.html">Porcentagem</a>
-            <a href="potenciacao.html">Potenciação</a>
+            <a href="potenciacao.html" class="pag-atual">Potenciação</a>
         </div>   
     </header>
-        <h1 id="texto-pre-form">Realiza as 4 operações básicas</h1>
+        <h1 id="texto-pre-form">Realiza cálculos de potenciação</h1>
     <div id="form">
         <input type="number" id="n1" placeholder="Digite o primeiro número">
-        <select id="selector">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">x</option>
-            <option value="/">/</option>
-        </select>
+        <p class="potenciacao">^</p>
         <input type="number" id="n2" placeholder="Digite o segundo número">
-        <button onclick="calcular1()">Calcular</button>
+        <button onclick="calcular3()">Calcular</button>
     </div>
     <div>
         <h3 id="resultado"></h3><br><br>
